@@ -1984,3 +1984,32 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
                random_state=7789, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
                subsample=1.0, subsample_for_bin=200000, subsample_freq=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001FC23A3C820>, system=True)
 2023-03-04 22:21:15,300:INFO:Checking exceptions
+2023-03-04 22:24:16,668:INFO:Initializing plot_model()
+2023-03-04 22:24:16,668:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=7789, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001FC23A3C820>, system=True)
+2023-03-04 22:24:16,668:INFO:Checking exceptions
+2023-03-04 22:24:16,674:INFO:Preloading libraries
+2023-03-04 22:24:16,682:INFO:Copying training dataset
+2023-03-04 22:24:16,682:INFO:Plot type: feature
+2023-03-04 22:24:16,683:WARNING:No coef_ found. Trying feature_importances_
+2023-03-04 22:24:16,939:INFO:Visual Rendered Successfully
+2023-03-04 22:24:17,013:INFO:plot_model() successfully completed......................................
+2023-03-04 22:25:25,547:INFO:Initializing plot_model()
+2023-03-04 22:25:25,547:INFO:plot_model(plot=confusion_matrix, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=7789, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001FC23A3C820>, system=True)
+2023-03-04 22:25:25,547:INFO:Checking exceptions
+2023-03-04 22:25:25,555:INFO:Preloading libraries
+2023-03-04 22:25:25,561:INFO:Copying training dataset
+2023-03-04 22:25:25,561:INFO:Plot type: confusion_matrix
+2023-03-04 22:25:25,860:INFO:Fitting Model
+2023-03-04 22:25:25,860:INFO:Scoring test/hold-out set
+2023-03-04 22:25:25,979:INFO:Visual Rendered Successfully
+2023-03-04 22:25:26,299:INFO:plot_model() successfully completed......................................
